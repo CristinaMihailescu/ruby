@@ -13,7 +13,7 @@ gem 'coffee-rails', '4.2.1'
 gem 'jquery-rails', '4.1.1'
 gem 'turbolinks',   '5.0.1'
 gem 'jbuilder',     '2.4.1'
-
+gem 'coffee-script-source', '1.8.0' #solve error The page you were looking for doesn't exist when trying to access /users
 
 group :development, :test do
   gem 'sqlite3', '1.3.12'
